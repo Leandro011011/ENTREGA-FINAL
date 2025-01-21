@@ -1,6 +1,3 @@
-#ifndef FUNCIONES_H
-#define FUNCIONES_H
-
 struct Zona {
     char nombre[50];
     float contaminantes[4];  
@@ -20,4 +17,4 @@ void mostrarDatosGuardados();
 void leerdatosGuardados(struct Zona *zonasGuardadas, int *Regristro);
 void menu();
 
-#endif 
+
